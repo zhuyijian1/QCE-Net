@@ -67,9 +67,9 @@ The main configurable arguments include `--dataset`, feature paths, annotation p
 
 - Python 3.10+
 - Torch 2.4.1+
-- NumPy
-- SciPy
-- tensorboardX
+- NumPy 2.1.2+
+- SciPy 1.15+
+- tensorboardX 2.6.4+
 
 The exact package list is provided in `requirements.txt`. A CUDA-capable PyTorch installation is recommended for practical training, while CPU execution is supported for testing and small-scale verification.
 
